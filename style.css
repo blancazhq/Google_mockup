@@ -1,0 +1,61 @@
+body{
+  text-align: center;
+}
+
+.main_div{
+  margin-top: 200px;
+}
+
+.input_div{
+  box-shadow: 5px 10px 5px #E2E2E2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 40px;
+}
+
+input{
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  text-align: left;
+  width: 600px;
+  height: 40px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.button_div{
+  display:table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.button{
+  display:table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background-color: : #F0F0F0;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.button:hover{
+  border: 1px solid #BEBEBE;
+  border-radius: 2px;
+}
+
+#microphone {
+  position:relative;
+  left: 290px;
+  top: -42px;
+  z-index: 2;
+}
